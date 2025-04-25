@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(../font/Poppins-SemiBold.ttf);
+
+}
+
+body{
+    color: #ffffff;
+    font-family: 'poppins';
+    background-color: #312484;
+}
+h1{
+    text-align: center;
+}
+div{
+    margin: auto;
+  width: max-content;
+}
+button{
+    width: 120px;
+    height: 30px;
+    font-family: 'poppins';
+    background-color: #272f75;
+    color: #ffffff;
+    border: none;
+    transition: 0.6s;
+}
+
+button:hover{
+    background-color: #2a306b;
+    transition: 0.6s;
+}
